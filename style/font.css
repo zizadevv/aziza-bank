@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'montib';
+    src: url(../fonts/Montserrat-Black.ttf);
+    
+}
+
+@font-face {
+    font-family: 'monti';
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'monti';
+    src: url(../fonts/Montserrat-Light.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'monti';
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'monti';
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}

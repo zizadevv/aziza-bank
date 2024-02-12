@@ -1,0 +1,84 @@
+@media (max-width: 1344px) {
+    .credits__items {
+        gap: 30px;
+    }
+
+    .apps__content {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .intro .container,
+    .card .container,
+    .header__nav .container,
+    .header__links,
+    .apps__content,
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .intro__title {
+        text-align: center;
+    }
+
+    .apps__left-title {
+        text-align: center;
+    }
+
+    .apps__right {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .credits__items,
+    .currency .container,
+    .currency__items {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .currency__title {
+        text-align: center;
+    }
+
+    .apps__left {
+        flex-direction: row-reverse;
+        padding: 15px;
+    }
+
+    .intro .container img {
+        width: 100%;
+    }
+
+    .download__links {
+        padding: 27px 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card .container img {
+        width: 100%;
+    }
+
+    .download__links,
+    .apps__btns,
+    .apps__left,
+    .apps__right-desc,
+    .card__btns,
+    .credits__left {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+.download {
+    padding: 0 15px;
+}
+  
+}
